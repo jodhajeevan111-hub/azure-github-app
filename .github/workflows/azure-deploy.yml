@@ -25,4 +25,5 @@ jobs:
           acrName: jodha
           containerAppName: jk-containerapp
           resourceGroup: DefaultResourceGroup-CCAN
-          # Trigger deployment again
+          acrUsername: ${{ secrets.ACR_USERNAME }}
+          acrPassword: ${{ secrets.ACR_PASSWORD }}
