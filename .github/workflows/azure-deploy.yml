@@ -25,4 +25,4 @@ jobs:
           acrName: Jodha
           containerAppName: jk-containerapp
           resourceGroup: DefaultResourceGroup-CCAN
-          # Trigger deployment
+          # Trigger deployment again
