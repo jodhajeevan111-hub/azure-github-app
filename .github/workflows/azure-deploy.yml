@@ -25,5 +25,5 @@ jobs:
           acrName: jodha
           containerAppName: jk-containerapp
           resourceGroup: DefaultResourceGroup-CCAN
-          acrUsername: ${{ secrets.ACR_USERNAME }}
-          acrPassword: ${{ secrets.ACR_PASSWORD }}
+          registryUsername: ${{ secrets.ACR_USERNAME }}
+          registryPassword: ${{ secrets.ACR_PASSWORD }}
