@@ -22,7 +22,7 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           appSourcePath: ${{ github.workspace }}
-          acrName: Jodha
+          acrName: jodha
           containerAppName: jk-containerapp
           resourceGroup: DefaultResourceGroup-CCAN
           # Trigger deployment again
